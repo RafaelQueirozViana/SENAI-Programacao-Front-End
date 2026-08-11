@@ -11,14 +11,14 @@
  */
 
 const changeBackground = () => {
-    document.body.style.backgroundColor = "red";
+    document.body.style.backgroundColor = "blue";
 }
 
 changeBackground();
 
 
 const changeFont = () => {
-    document.body.style.fontFamily = "Arial, Helvetica, sans-serif";
+    document.body.style.fontFamily = "Arial, Helvetica, sans-serif;";
 }
 
 changeFont()
