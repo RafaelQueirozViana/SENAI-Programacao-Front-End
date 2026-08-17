@@ -195,4 +195,16 @@ const countries = [
 	"Zimbábue"
 ];
 
-const
+
+
+const paisesContainer = document.querySelector(".countries");
+
+paisesContainer.innerHTML = "";
+
+countries.forEach(currentPais => {
+	paisesContainer.innerHTML += `
+			<div class="pais-box">
+				<h3 class="pais-name">${currentPais}</h3>
+			</div>`
+})
+
